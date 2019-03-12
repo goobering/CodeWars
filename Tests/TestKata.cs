@@ -1,8 +1,9 @@
 using NUnit.Framework;
+using Src;
 
 namespace Tests
 {
-    public class Tests
+    public class TestKata
     {
         [SetUp]
         public void Setup()
@@ -12,7 +13,7 @@ namespace Tests
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            Assert.AreEqual(-1, Kata.DoSomething());
         }
     }
 }
