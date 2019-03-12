@@ -4,9 +4,9 @@ namespace Src
 {
     public static class Kata
     {
-        public static long PowerSumDigTerm(int n) 
+        public static bool DoSomething() 
         {
-            return -1;
+            throw new NotImplementedException();
         }
     }
 }
