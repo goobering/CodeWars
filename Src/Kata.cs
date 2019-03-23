@@ -4,7 +4,7 @@ namespace Src
 {
     public static class Kata
     {
-        public static bool DoSomething() 
+        public static int Score(int[] dice) 
         {
             throw new NotImplementedException();
         }
