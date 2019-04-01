@@ -4,9 +4,9 @@ namespace Src
 {
     public static class Kata
     {
-        public static bool DoSomething() 
+        public static int IsSolved(int[,] board)
         {
-            throw new NotImplementedException();
+            return 0;
         }
     }
 }
